@@ -41,7 +41,7 @@ describe('restful-bookers', () => {
              //9) Checkin-date is 2019-10-02
              expect(response.body.bookingdates.checkin).to.eq('2023-03-17')
 
-             //10)Checkout-date is "2020-08-12"
+             //10)Checkout-date is "2020-08-12" 'baki'
              //expect(response.body.bookingdates.checkot).to.eq('2023-06-15')
 
              expect(response.body.additionalneeds).to.eq('Breakfast')
