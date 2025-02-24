@@ -1,5 +1,5 @@
-describe('restful-booker', () => {
-    it('get05', () => {
+describe('restful-booker', function()  {
+    it('get05', function()  {
         /*https://restful-booker.herokuapp.com/booking?firstname=Sally&lastname=Jones 
         böyle bir url'de /tan sonrası path parametre, ?işaretinden sonrası query parametre olarak
         ve de tüm url de endpoint adlandırılır.
