@@ -5,7 +5,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    //baseUrl : 'https://jsonplaceholder.typicode.com' // baseUrl'i yazarken tırnak içinde boşluk vs olmasın kod hata veriyor
-      baseUrl : 'https://restful-booker.herokuapp.com'
+    baseUrl : 'https://jsonplaceholder.typicode.com' // baseUrl'i yazarken tırnak içinde boşluk vs olmasın kod hata veriyor
+    //baseUrl : 'https://restful-booker.herokuapp.com'
+     // baseUrl : 'https://gorest.co.in'
   },
 });
